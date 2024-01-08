@@ -1,0 +1,253 @@
+    /*BODY*/
+    body {
+        background-color: rgb(151, 16, 11);
+    }
+
+    /*Header*/
+
+    header {
+        border-bottom: none;
+        text-align: center;
+        text-decoration-color: black;
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .logo {
+        width: 400px;
+        height: auto;
+    }
+
+    nav li {
+
+        flex: auto;
+        gap: 20px;
+
+    }
+
+
+
+    a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: rgb(231, 220, 220);
+    }
+
+
+    /*Main*/
+
+    .columnas {
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    
+    .columna1 {
+        width: 50%;
+    }
+    .columna2{
+        width: 50%;
+    }
+
+    .titleMain {
+        text-align: center;
+        color: antiquewhite;
+        margin: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        margin: 20px 0px;
+
+    }
+
+    /* sobre nosotros
+--------------------------------------------------------------*/
+
+    .sobrenosotros {
+        text-align: center;
+        color: antiquewhite;
+        margin: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .introduccion {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 75px;
+        margin: 15px 10px;
+        padding: 10px;
+        color: antiquewhite;
+        text-decoration: none;
+
+    }
+
+
+
+
+    .team .member {
+        text-align: center;
+        margin-bottom: 20px;
+        background: #fff;
+        border: 1px solid rgba(14, 29, 52, 0.15);
+    }
+
+    .team .member img {
+        margin: -1px -1px 30px -1px;
+    }
+
+    .team .member .member-content {
+        padding: 0 20px 30px 20px;
+    }
+
+    .team .member h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-size: 18px;
+        color: #191c1f;
+    }
+
+    .team .member span {
+        font-style: italic;
+        display: block;
+        font-size: 13px;
+        color: #191c1f;
+    }
+
+    .team .member p {
+        padding-top: 10px;
+        font-size: 14px;
+        font-style: italic;
+        color: #191c1f;
+    }
+
+    .team .member .social {
+        margin-top: 15px;
+    }
+
+    .team .member .social a {
+        color: rgba(14, 29, 52, 0.5);
+        transition: 0.3s;
+    }
+
+    .team .member .social a:hover {
+        color: var(--color-primary);
+    }
+
+    .team .member .social i {
+        font-size: 18px;
+        margin: 0 2px;
+    }
+
+
+    /*footer*/
+    .footer {
+        padding: 15px;
+        text-align: center;
+        background-color: #333;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    /*servicios*/
+
+    .imgservicio {
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .contenedorservicios {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        border: 4px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+
+
+
+    }
+
+    /*iframe*/
+
+    .iframe {
+        display: flex;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    /*formulario*/
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+
+    }
+
+    input [type="text"],
+    textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+
+    }
+
+    .buttonformulario {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+
+    }
+
+    /*sobre nosotros*/
+
+    .introduccion {
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
