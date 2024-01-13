@@ -75,6 +75,25 @@
 
     }
 
+    
+    .video-item {
+        flex: 0 0 calc(25% - 20px); /* Ajusta el ancho del 25% y resta el espacio entre elementos */
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 56.25%; /* Proporción 16:9 para el contenedor del video */
+    }
+
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 75%;
+        height: 75%;
+    }
+
+
     /* sobre nosotros
 --------------------------------------------------------------*/
 
@@ -134,24 +153,6 @@
         font-size: 14px;
         font-style: italic;
         color: #191c1f;
-    }
-
-    .team .member .social {
-        margin-top: 15px;
-    }
-
-    .team .member .social a {
-        color: rgba(14, 29, 52, 0.5);
-        transition: 0.3s;
-    }
-
-    .team .member .social a:hover {
-        color: var(--color-primary);
-    }
-
-    .team .member .social i {
-        font-size: 18px;
-        margin: 0 2px;
     }
 
 
