@@ -10,6 +10,7 @@
         text-align: center;
         text-decoration-color: black;
     }
+
     .logo-container {
         display: flex;
         flex-direction: column;
@@ -51,11 +52,12 @@
         flex-wrap: wrap;
         margin-bottom: 40px;
     }
-    
+
     .columna1 {
         width: 50%;
     }
-    .columna2{
+
+    .columna2 {
         width: 50%;
     }
 
@@ -75,16 +77,20 @@
 
     }
 
-    
+    /*NOTICIAS*/
+
     .video-item {
-        flex: 0 0 calc(25% - 20px); /* Ajusta el ancho del 25% y resta el espacio entre elementos */
+        flex: 0 0 calc(15% - 15px);
+        /* Ajusta el ancho del 25% y resta el espacio entre elementos */
         margin: 10px;
         position: relative;
         overflow: hidden;
-        padding-bottom: 56.25%; /* Proporción 16:9 para el contenedor del video */
+        padding: auto;
+        padding-bottom: 56.25%
+            /* Proporción 16:9 para el contenedor del video */
     }
 
-    
+
     iframe {
         position: absolute;
         top: 0;
@@ -158,7 +164,7 @@
 
     /*footer*/
     .footer {
-        padding: 15px;
+        padding: 10px;
         text-align: center;
         background-color: #333;
         color: white;
@@ -172,28 +178,39 @@
         margin: 0;
         padding: 0;
     }
+
     /*servicios*/
 
     .imgservicio {
         display: block;
-        width: 100%;
-        height: auto;
+        width: 50%;
+        align-items: center;
+        object-fit: cover;
+        width: 50%;
+        height:50%;
 
     }
 
     .contenedorservicios {
-        background-color: #333;
-        color: #fff;
+        color:antiquewhite;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+
+
+    }
+
+    .tituloServicio {
+
         text-align: center;
-        padding: 10px;
-        margin: 20px;
-        border: 4px solid black;
-        border-radius: 10px;
-        font-weight: bold;
-        font-size: 18px;
-        text-transform: uppercase;
-
-
+        color: antiquewhite;
+        font-size: larger;
+        margin: 10px;
+        text-decoration: underline;
 
     }
 
@@ -205,12 +222,17 @@
         margin: auto;
     }
 
-    /*formulario*/
+    /*FORMULARIO DE CONTACTO*/
 
+    /*CONTACTO*/
     .form {
+        
         margin-top: 20px;
+        height: auto;
+        width: 600px;
     }
-
+    
+        
     .label {
         display: block;
         font-weight: bold;
@@ -240,15 +262,4 @@
         cursor: pointer;
         margin-top: 10px;
 
-    }
-
-    /*sobre nosotros*/
-
-    .introduccion {
-        color: #fff;
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 40px;
     }
