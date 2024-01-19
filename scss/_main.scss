@@ -1,0 +1,29 @@
+/*MAIN*/
+
+.columnas {
+    color: $color-fuentes;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.columna1,
+.columna2 {
+    width: 50%;
+}
+
+.titleMain {
+    text-align: center;
+    color: $color-fuentes;
+    margin: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px;
+}

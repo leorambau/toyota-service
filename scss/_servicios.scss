@@ -1,0 +1,28 @@
+/*SERVICIOS*/
+
+.imgservicio {
+    display: block;
+    width: 50%;
+    align-items: center;
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+}
+
+.contenedorservicios {
+    color: $color-fuentes;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tituloServicio {
+    text-align: center;
+    color: $color-fuentes;
+    font-size: larger;
+    margin: 10px;
+    text-decoration: underline;
+}

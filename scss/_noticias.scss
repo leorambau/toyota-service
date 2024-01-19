@@ -1,0 +1,20 @@
+/*NOTICIAS*/
+
+.video-item {
+    flex: 0 0 calc(15% - 15px);
+
+    /* Ajusta el ancho del 25% y resta el espacio entre elementos */
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: auto;
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%;
+}

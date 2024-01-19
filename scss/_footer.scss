@@ -1,0 +1,18 @@
+/*FOOTER*/
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: $color-fuentes;
+    ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    p {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+}

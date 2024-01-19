@@ -1,0 +1,48 @@
+/*SOBRE NOSOTROS*/
+
+.introduccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px;
+    margin: 15px 10px;
+    padding: 10px;
+    color: $color-fuentes;
+    text-decoration: none;
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: $color-fuentes;
+    ;
+    border: 1px solid rgba(14, 29, 52, 0.15);
+
+    img {
+        margin: -1px -1px 30px -1px;
+    }
+
+    .member-content {
+        padding: 0 20px 30px 20px;
+    }
+
+    h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-size: 18px;
+        color: $color-member-content;
+    }
+
+    span {
+        font-style: italic;
+        display: block;
+        font-size: 14px;
+        color: $color-member-content;
+    }
+
+    p {
+        padding-top: 10px;
+        font-size: 14px;
+        font-style: italic;
+        color: $color-member-content;
+    }
+}

@@ -1,0 +1,38 @@
+/* FORMULARIO DE CONTACTO*/
+
+.form {
+    position: absolute;
+    margin: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
+
+.label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input [type="text"],
+textarea {
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buttonformulario {
+    background-color: $color-back-boton-form;
+    color: $color-boton-form;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
