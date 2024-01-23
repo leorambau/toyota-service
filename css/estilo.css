@@ -1,17 +1,217 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "variables", "contacto", "footer", "general", "header", "main", "noticias", "servicios", "sobrenosotros"
- *   |         ^^^^^^^^^^^
- *   '
- *   scss\estilo.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"variables\", \"contacto\", \"footer\", \"general\", \"header\", \"main\", \"noticias\", \"servicios\", \"sobrenosotros\"\a   \2502          ^^^^^^^^^^^\a   \2575 \a   scss\\estilo.scss 1:9  root stylesheet";
+/* FORMULARIO DE CONTACTO*/
+.form {
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -49%);
 }
+
+.label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input [type=text],
+textarea {
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttonformulario {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/*MIXIN*/
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: antiquewhite;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: bisque;
+}
+
+/*BODY*/
+body {
+  background-color: rgb(151, 16, 11);
+}
+
+/*Header*/
+header {
+  border-bottom: none;
+  text-align: center;
+  text-decoration-color: black;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+nav li {
+  flex: auto;
+  gap: 20px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+/*MAIN*/
+.columnas {
+  color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.columna1,
+.columna2 {
+  width: 50%;
+}
+
+.titleMain {
+  text-align: center;
+  color: antiquewhite;
+  margin: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+
+/*NOTICIAS*/
+.video-item {
+  flex: 0 0 calc(15% - 15px);
+  /* Ajusta el ancho del 25% y resta el espacio entre elementos */
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: auto;
+  padding-bottom: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 75%;
+}
+
+/*SERVICIOS*/
+.imgservicio {
+  display: block;
+  width: 50%;
+  align-items: center;
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+}
+
+.contenedorservicios {
+  color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tituloServicio {
+  text-align: center;
+  color: antiquewhite;
+  font-size: larger;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+/*SOBRE NOSOTROS*/
+.introduccion {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 75px;
+  margin: 15px 10px;
+  padding: 10px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: antiquewhite;
+  border: 1px solid rgba(14, 29, 52, 0.15);
+}
+.team .member img {
+  margin: -1px -1px 30px -1px;
+}
+.team .member .member-content {
+  padding: 0 20px 30px 20px;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #191c1f;
+}
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  color: #191c1f;
+}
+.team .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #191c1f;
+}
+
+/*# sourceMappingURL=estilo.css.map */
